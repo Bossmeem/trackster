@@ -1,0 +1,10 @@
+/*
+  Custom styles for Trackster App
+*/
+html {
+  font-size: 16px;
+}
+
+header {
+  background-color: rgba(35, 2, 63, 1);
+}
