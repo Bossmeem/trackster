@@ -11,15 +11,22 @@ header {
   background-color: rgba(35, 2, 63, 1);
 }
 
+header div {
+  padding: 2.5rem 0;
+}
+
 .title {
   font-family: Righteous;
   font-size: 2.5rem;
   color: rgb(255, 0, 171);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 input {
   border-radius: 1.5rem;
   margin-right: .6rem;
+  color: rgba(191, 191, 191, 1);
 }
 
 .search {
