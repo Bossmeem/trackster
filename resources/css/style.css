@@ -35,3 +35,10 @@ input {
   color: initial;
   border-radius: 1.5rem;
 }
+
+/* headings */
+
+.headers {
+  background-color: rgba(104, 0, 255, 1);
+  color: rgba(255,255, 255, 1);
+}

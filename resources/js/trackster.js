@@ -21,13 +21,12 @@ Trackster.renderTracks = function(tracks) {
 */
 Trackster.searchTracksByTitle = function(title) {
   $.ajax({
-    url: 'http://ws.audioscrobbler.com/2.0/?method=track.search&track=' + 'title' + '&api_key=' + API_KEY + '&format=json';
+    url: 'http://ws.audioscrobbler.com/2.0/?method=track.search&track=' + 'title' + '&api_key=' + API_KEY;
     datatype: jsonp;
-    success: {
-      funtion(){
-        console.log('results')
-      }
-    }
+    success: funtion(){
+        console.log('results');
+      };
+
   });
 };
 
